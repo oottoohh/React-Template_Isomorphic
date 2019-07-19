@@ -1,0 +1,19 @@
+.randomChars div {
+  font-size: 18px;
+  color: #d7dae7;
+  display: inline-block;
+  transform: rotate(20deg);
+}
+/* rotate chars */
+.randomChars div:nth-child(0) {
+  transform: rotate(0deg);
+}
+.randomChars div:nth-child(1) {
+  transform: rotate(15deg);
+}
+.randomChars div:nth-child(2) {
+  transform: rotate(30deg);
+}
+.randomChars div:nth-child(3) {
+  transform: rotate(45deg);
+}

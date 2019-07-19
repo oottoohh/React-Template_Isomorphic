@@ -1,0 +1,49 @@
+.customText{
+    font-size: 41px;
+    text-align: center;
+}
+
+.customIcon{
+    font-size: 49px;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: #82ca9d;
+    color: #82ca9d;
+}
+
+.customBox{
+    width: 15px;
+    height: 2px;
+    background: #83BEDF;
+}
+
+.customUpload{
+    // background: transparent !important;
+    // background: white url(../../../DJP/src/image/upload.png) center no-repeat !important;
+}
+
+.customUpload-onfocus {
+    background: white
+}
+
+.customUpload.onblur{
+    background: white
+}
+
+// :-ms-input-placeholder {  
+//     text-align: center !important;
+// }
+
+// ::-webkit-input-placeholder {
+//     text-align: center !important;
+// }
+
+.ant-input-group.ant-input-group-compact>.ant-calendar-picker:last-child .ant-input{
+    border-right-width: 1px !important;
+}
+.ant-input-group.ant-input-group-compact>.ant-select:last-child>.ant-select-selection{
+    border-right-width: 1px !important;
+}
+.ant-table-footer{
+    text-align: right !important;
+}
